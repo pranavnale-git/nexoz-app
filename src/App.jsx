@@ -24,7 +24,9 @@ import {
   Bot,
   HelpCircle,
   Server,
-  Menu
+  Menu,
+  ArrowUp,
+  Rocket
 } from 'lucide-react';
 
 /* --- BRAND ICONS --- */
@@ -91,17 +93,17 @@ const nexozData = {
   services: [
     {
       title: "Auto Social Media Mgmt",
-      price: "₹12,999 /mo",
+      price: "₹4,999 /mo",
       features: ["Schedule to All Platforms", "AI Caption Writing", "Engagement Analytics"]
     },
     {
       title: "AI Support Chatbot",
-      price: "₹24,999 setup",
+      price: "₹9,999 setup",
       features: ["24/7 Customer Service", "Trained on Your Docs", "Human Handoff"]
     },
     {
       title: "Content Generation Engine",
-      price: "₹15,999 /mo",
+      price: "₹4,999 /mo",
       features: ["SEO Blog Writing", "Email Newsletters", "Social Media Visuals"]
     },
     {
@@ -113,21 +115,21 @@ const nexozData = {
   pricing: [
     {
       tier: "Starter",
-      price: "₹2,499",
+      price: "₹999",
       period: "/mo",
       features: ["5 Active Flows", "15m Update Time", "Standard Support"],
       highlight: false
     },
     {
       tier: "Pro",
-      price: "₹7,999",
+      price: "₹2,999",
       period: "/mo",
       features: ["Unlimited Flows", "1m Update Time", "Priority Support", "Multi-step Zaps"],
       highlight: true
     },
     {
       tier: "Business",
-      price: "₹24,999",
+      price: "₹9,999",
       period: "/mo",
       features: ["Dedicated Server", "Real-time Updates", "24/7 Phone Support", "SSO"],
       highlight: false
@@ -422,6 +424,7 @@ export default function NexozApp() {
       `}</style>
 
       <ToastContainer toasts={toasts} darkMode={darkMode} />
+
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
       {/* --- BUILDER MODAL --- */}
