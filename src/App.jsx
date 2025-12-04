@@ -37,7 +37,7 @@ const BrandIcons = {
   "Notion": { viewBox: "0 0 24 24", paths: [{ d: "M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28.047-.326L19.31 1.63c-.093-.42-.513-.42-.887-.373L3.899 2.19c-.42.046-.513.56-.093.933l.653 1.085zm.653 1.773c-.606 0-1.12.513-1.12 1.12v15.21c0 .513.514 1.12 1.12 1.12h14.79c.607 0 1.12-.513 1.12-1.12V5.048c0-.606-.513-1.12-1.12-1.12H5.112zm2.053 13.903c-.233 0-.466-.233-.466-.467v-9.66c0-.326.326-.466.56-.233L16.49 15.69c.233.233.513.233.513 0V6.448c0-.233.233-.467.467-.467h1.026c.233 0 .467.233.467.467v10.126c0 .326-.327.466-.56.233L9.27 6.495c-.233-.233-.513-.233-.513 0v8.911c0 .233-.233.467-.467.467H7.165z", fill: "currentColor" }] },
   "Shopify": { viewBox: "0 0 24 24", paths: [{ d: "M12 0L2 4v16l10 4l10-4V4L12 0zm7.5 18.5L12 21.5L4.5 18.5V5.5L12 2.5l7.5 3v13z M15 13.5l-3 1.5l-3-1.5v-3l3-1.5l3 1.5v3z", fill: "#95BF47" }] },
   "OpenAI": { viewBox: "0 0 24 24", paths: [{ d: "M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9723V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1195 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2298V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4533l-.142.0805L8.704 5.4596a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l3.8556-2.2088 3.8556 2.2088v4.4176L13.2597 17.124l-3.8556-2.2088z", fill: "currentColor" }] },
-  "Gmail": { viewBox: "0 0 24 24", paths: [{ d: "M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.55l6.545-4.91 1.528-1.145C21.69 2.28 24 3.43 24 5.46z", fill: "#EA4335" }] },
+  "Gmail": { viewBox: "0 0 24 24", paths: [{ d: "M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.43 24 5.46z", fill: "#EA4335" }] },
   "HubSpot": { viewBox: "0 0 24 24", paths: [{ d: "M11.5 24c-1.38 0-2.5-1.12-2.5-2.5S10.12 19 11.5 19c1.07 0 1.98.68 2.33 1.62l3.4-1.96c-.1-.31-.17-.65-.17-1a4 4 0 0 1 4-4c.35 0 .69.07 1 .17V2.5C21.64 1.12 20.52 0 19.14 0H4.86C3.48 0 2.36 1.12 2.36 2.5v16.14l2.5-2.5l2.5 2.5l1.64 1.64c-.94.35-1.62 1.26-1.62 2.33a2.5 2.5 0 0 0 5 0c0-.11 0-.21-.03-.31l-3.35 1.94c0 .08.01.16.01.24c0 1.38-1.12 2.5-2.5 2.5z", fill: "#FF7A59" }] },
   "PostgreSQL": { viewBox: "0 0 24 24", paths: [{ d: "M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,18.5C9.5,18.5 7.5,16.5 7.5,14C7.5,11.5 9.5,9.5 12,9.5C14.5,9.5 16.5,11.5 16.5,14C16.5,16.5 14.5,18.5 12,18.5M12,5.5C13.5,5.5 14.8,6.1 15.8,7.1L13.7,9.2C13.2,8.8 12.6,8.5 12,8.5C9.8,8.5 8,10.3 8,12.5C8,14.7 9.8,16.5 12,16.5C14.2,16.5 16,14.7 16,12.5V11.5H12V8.5H19V12.5C19,16.3 15.9,19.5 12,19.5C8.1,19.5 5,16.3 5,12.5C5,8.6 8.1,5.5 12,5.5Z", fill: "#336791" }] },
   "AWS S3": { viewBox: "0 0 24 24", paths: [{ d: "M12,2L2,7L12,12L22,7L12,2M2,17L12,22L22,17V12L12,17L2,12V17Z", fill: "#FF9900" }] },
@@ -402,7 +402,7 @@ export default function NexozApp() {
   // Marquee Row Helper
   const MarqueeRow = ({ items, reverse, rowNumber }) => {
     // Define size classes for mobile and desktop, ensuring the container width is not static (w-max is used inside)
-    const cardMobileClasses = "p-2 w-24 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
+    const cardMobileClasses = "p-2 w-28 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
     const cardDesktopClasses = "sm:w-32 sm:h-24 md:w-40 md:h-32 lg:w-48 lg:h-40";
 
     return (
@@ -542,7 +542,8 @@ export default function NexozApp() {
       <section id="compatibility" className="py-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <FadeInSection>
-            <div className="flex flex-col md:flex-row justify-between items-end mb-16">
+            {/* Centering all headings and elements on mobile */}
+            <div className="flex flex-col md:flex-row justify-between items-end mb-16 mx-auto"> 
               <div className="max-w-lg mx-auto md:mx-0 text-center md:text-left w-full">
                 <h2 className="text-4xl md:text-6xl font-black tracking-tight">Integrations.</h2>
                 <p className={`mt-4 text-lg font-bold text-blue-500`}>1,000+ Native Integrations</p>
@@ -584,38 +585,10 @@ export default function NexozApp() {
             <div className={`absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l ${darkMode ? 'from-slate-950' : 'from-slate-50'} to-transparent pointer-events-none`}></div>
             
             {/* Row 1: Moving LEFT */}
-            <div className="flex overflow-hidden select-none my-2 w-full">
-              <div 
-                className={`flex w-max gap-4 items-center px-4 animate-marquee`}
-                style={{ animationDuration: '60s', willChange: 'transform' }}
-              >
-                 {[...compatibilitySet1, ...compatibilitySet1].map((app, idx) => (
-                   <div key={`r1-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
-                     <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
-                       <IconMap name={app.icon} size={20} className="drop-shadow-md" />
-                     </div>
-                     <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
-                   </div>
-                 ))}
-              </div>
-            </div>
+            <MarqueeRow items={compatibilitySet1} reverse={false} rowNumber={1} />
 
             {/* Row 2: Moving RIGHT */}
-            <div className="flex overflow-hidden select-none my-2 w-full">
-              <div 
-                className={`flex w-max gap-4 items-center px-4 animate-marquee-reverse`}
-                style={{ animationDuration: '60s', willChange: 'transform' }}
-              >
-                 {[...compatibilitySet2, ...compatibilitySet2].map((app, idx) => (
-                   <div key={`r2-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
-                     <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1"><IconMap name={app.icon} size={20} className="drop-shadow-md" /></div>
-                     <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
-                   </div>
-                 ))}
-              </div>
-            </div>
+            <MarqueeRow items={compatibilitySet2} reverse={true} rowNumber={2} />
           </div>
         )}
       </section>
