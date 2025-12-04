@@ -37,7 +37,7 @@ const BrandIcons = {
   "Notion": { viewBox: "0 0 24 24", paths: [{ d: "M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28.047-.326L19.31 1.63c-.093-.42-.513-.42-.887-.373L3.899 2.19c-.42.046-.513.56-.093.933l.653 1.085zm.653 1.773c-.606 0-1.12.513-1.12 1.12v15.21c0 .513.514 1.12 1.12 1.12h14.79c.607 0 1.12-.513 1.12-1.12V5.048c0-.606-.513-1.12-1.12-1.12H5.112zm2.053 13.903c-.233 0-.466-.233-.466-.467v-9.66c0-.326.326-.466.56-.233L16.49 15.69c.233.233.513.233.513 0V6.448c0-.233.233-.467.467-.467h1.026c.233 0 .467.233.467.467v10.126c0 .326-.327.466-.56.233L9.27 6.495c-.233-.233-.513-.233-.513 0v8.911c0 .233-.233.467-.467.467H7.165z", fill: "currentColor" }] },
   "Shopify": { viewBox: "0 0 24 24", paths: [{ d: "M12 0L2 4v16l10 4l10-4V4L12 0zm7.5 18.5L12 21.5L4.5 18.5V5.5L12 2.5l7.5 3v13z M15 13.5l-3 1.5l-3-1.5v-3l3-1.5l3 1.5v3z", fill: "#95BF47" }] },
   "OpenAI": { viewBox: "0 0 24 24", paths: [{ d: "M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9723V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1195 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2298V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4533l-.142.0805L8.704 5.4596a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l3.8556-2.2088 3.8556 2.2088v4.4176L13.2597 17.124l-3.8556-2.2088z", fill: "currentColor" }] },
-  "Gmail": { viewBox: "0 0 24 24", paths: [{ d: "M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.55l6.545-4.91 1.528-1.145C21.69 2.28 24 3.43 24 5.46z", fill: "#EA4335" }] },
+  "Gmail": { viewBox: "0 0 24 24", paths: [{ d: "M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.43 24 5.46z", fill: "#EA4335" }] },
   "HubSpot": { viewBox: "0 0 24 24", paths: [{ d: "M11.5 24c-1.38 0-2.5-1.12-2.5-2.5S10.12 19 11.5 19c1.07 0 1.98.68 2.33 1.62l3.4-1.96c-.1-.31-.17-.65-.17-1a4 4 0 0 1 4-4c.35 0 .69.07 1 .17V2.5C21.64 1.12 20.52 0 19.14 0H4.86C3.48 0 2.36 1.12 2.36 2.5v16.14l2.5-2.5l2.5 2.5l1.64 1.64c-.94.35-1.62 1.26-1.62 2.33a2.5 2.5 0 0 0 5 0c0-.11 0-.21-.03-.31l-3.35 1.94c0 .08.01.16.01.24c0 1.38-1.12 2.5-2.5 2.5z", fill: "#FF7A59" }] },
   "PostgreSQL": { viewBox: "0 0 24 24", paths: [{ d: "M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,18.5C9.5,18.5 7.5,16.5 7.5,14C7.5,11.5 9.5,9.5 12,9.5C14.5,9.5 16.5,11.5 16.5,14C16.5,16.5 14.5,18.5 12,18.5M12,5.5C13.5,5.5 14.8,6.1 15.8,7.1L13.7,9.2C13.2,8.8 12.6,8.5 12,8.5C9.8,8.5 8,10.3 8,12.5C8,14.7 9.8,16.5 12,16.5C14.2,16.5 16,14.7 16,12.5V11.5H12V8.5H19V12.5C19,16.3 15.9,19.5 12,19.5C8.1,19.5 5,16.3 5,12.5C5,8.6 8.1,5.5 12,5.5Z", fill: "#336791" }] },
   "AWS S3": { viewBox: "0 0 24 24", paths: [{ d: "M12,2L2,7L12,12L22,7L12,2M2,17L12,22L22,17V12L12,17L2,12V17Z", fill: "#FF9900" }] },
@@ -46,7 +46,7 @@ const BrandIcons = {
   "Trello": { viewBox: "0 0 24 24", paths: [{ d: "M19.06 2H4.94C3.32 2 2 3.32 2 4.94v14.12C2 20.68 3.32 22 4.94 22h14.12C20.68 22 22 20.68 22 19.06V4.94C22 3.32 20.68 2 19.06 2zM10.6 16.2H5.9V5.8h4.7v10.4zm7.5-4.4h-4.7V5.8h4.7v6z", fill: "#0079BF" }] },
   "WooCommerce": { viewBox: "0 0 24 24", paths: [{ d: "M21.5 13.5c0 1.25-1.12 2.37-3.37 3.37c-.37 1.37-1.62 2.37-3 2.37c-.62 0-1.12-.12-1.62-.37c-.62.87-1.62 1.37-2.62 1.37c-1.37 0-2.5-1-2.87-2.25c-1.87-.87-3-2.12-3-3.25c0-1.87 2.37-3.37 5.25-3.37s5.25 1.5 5.25 3.37c0 .12 0 .25-.12.37c.5.5 1 .62 1.37.62c.62 0 1.12-.5 1.12-1.12c0-.5-.37-1-1.12-1.5c-2.37-1.62-2.12-5.37.5-5.37c1.75 0 3.25 1.75 4.12 3.75c.12.62.12 1.25.12 2z", fill: "#96588A" }] },
   "MongoDB": { viewBox: "0 0 24 24", paths: [{ d: "M12 22C11.5 22 11 21.5 11 21C11 17.5 7 13 7 9C7 5 9.5 2 12 2C14.5 2 17 5 17 9C17 13 13 17.5 13 21C13 21.5 12.5 22 12 22Z", fill: "#47A248" }] },
-  "Discord": { viewBox: "0 0 24 24", paths: [{ d: "M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.772-.6083 1.1588a18.2915 18.2915 0 0 0-5.4868 0 12.64 12.64 0 0 0-.6173-1.1632.077.077 0 0 0-.079-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.419-2.1568 2.419zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.419-2.1568 2.419z", fill: "#5865F2" }] },
+  "Discord": { viewBox: "0 0 24 24", paths: [{ d: "M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.772-.6083 1.1588a18.2915 18.2915 0 0 0-5.4868 0 12.64 12.64 0 0 0-.6173-1.1632.077.077 0 0 0-.079-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.419-2.1568 2.419z", fill: "#5865F2" }] },
   "Airtable": { viewBox: "0 0 24 24", paths: [{ d: "M12 0l-9.33 6.06L2.67 17.94 12 24l9.33-6.06L21.33 6.06zM12 18.6L6 14.7v-5.4l6 3.9v5.4zm0-6.9L6 7.8l6-3.9 6 3.9-6 3.9zm0 6.9v-5.4l6-3.9v5.4l-6 3.9z", fill: "#FCB400" }] },
   "Stripe": { viewBox: "0 0 24 24", paths: [{ d: "M14 11.5c0-1.5-1-2.5-3.5-2.5S6 10 6 10l-.5-3s1.5-1 4.5-1C14 6 16 8 16 11.5c0 4.5-9 4.5-9 6.5c0 .5.5 1 2.5 1c2.5 0 4-1 4-1l.5 3s-1.5 1-4.5 1c-4.5 0-6.5-2.5-6.5-5.5c0-5 9-5 9-7z", fill: "#635BFF" }] },
   "Twilio": { viewBox: "0 0 24 24", paths: [{ d: "M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm-3.5-7c-1.93 0-3.5-1.57-3.5-3.5S6.57 5 8.5 5 12 6.57 12 8.5 10.43 12 8.5 12zm7 0c-1.93 0-3.5-1.57-3.5-3.5S13.57 5 15.5 5 19 6.57 19 8.5 17.43 12 15.5 12z", fill: "#F22F46" }] },
@@ -144,7 +144,7 @@ const nexozData = {
     { name: "HubSpot", type: "CRM", icon: "HubSpot", color: "#FF7A59" },
     { name: "PostgreSQL", type: "Database", icon: "PostgreSQL", color: "#336791" },
     { name: "AWS S3", type: "Storage", icon: "AWS S3", color: "#FF9900" },
-    { name: "Google Drive", type: "Storage", color: "#1FA463", icon: "Google Drive" },
+    { name: "Google Drive", type: "Storage", icon: "Google Drive", color: "#1FA463" },
     { name: "Typeform", type: "Forms", icon: "Typeform", color: "#262627" },
     { name: "Trello", type: "Project Mgmt", icon: "Trello", color: "#0079BF" },
     { name: "WooCommerce", type: "E-commerce", icon: "WooCommerce", color: "#96588A" },
@@ -396,25 +396,24 @@ export default function NexozApp() {
 
   // Marquee Row Helper
   const MarqueeRow = ({ items, reverse, rowNumber }) => {
-    // Determine card dimensions based on screen size (Mobile first)
-    const cardBaseClasses = "p-2 w-28 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
+    // Define size classes for mobile and desktop, ensuring the container width is not static (w-max is used inside)
+    const cardMobileClasses = "p-2 w-28 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
     const cardDesktopClasses = "sm:w-32 sm:h-24 md:w-40 md:h-32 lg:w-48 lg:h-40";
 
-    
     return (
       <div className="flex overflow-hidden group/marquee select-none my-4 w-full">
         <div 
           className={`flex w-max gap-8 items-center px-4 ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}
           style={{ 
-            animationDuration: '80s',
-            willChange: 'transform'
+            animationDuration: '60s',
+            willChange: 'transform' // Optimized for smoothness
           }}
         >
            {/* Duplicate items to create seamless loop */}
            {[...items, ...items].map((app, idx) => (
              <div 
                key={`${app.name}-${idx}-${rowNumber}`}
-               className={`group relative ${cardBaseClasses} ${cardDesktopClasses} ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}
+               className={`group relative ${cardMobileClasses} ${cardDesktopClasses} ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}
              >
                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
                  <IconMap name={app.icon} size={24} className="drop-shadow-md" />
@@ -428,10 +427,8 @@ export default function NexozApp() {
     );
   };
 
-  const compatibilitySet1 = nexozData.compatibility.slice(0, 6);
-  const compatibilitySet2 = nexozData.compatibility.slice(6, 12);
-  const compatibilitySet3 = nexozData.compatibility.slice(12, 18);
-  const compatibilitySet4 = nexozData.compatibility.slice(18);
+  const compatibilitySet1 = nexozData.compatibility.slice(0, 12);
+  const compatibilitySet2 = nexozData.compatibility.slice(12);
 
   return (
     <div className={`relative min-h-screen font-sans transition-colors duration-500 selection:bg-blue-500 selection:text-white overflow-x-hidden ${darkMode ? 'text-white' : 'text-slate-900'}`}>
@@ -456,8 +453,8 @@ export default function NexozApp() {
       <style>{`
         @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
         @keyframes marquee-reverse { 0% { transform: translateX(-50%); } 100% { transform: translateX(0); } }
-        .animate-marquee { animation: marquee 80s linear infinite; }
-        .animate-marquee-reverse { animation: marquee-reverse 80s linear infinite; }
+        .animate-marquee { animation: marquee 60s linear infinite; }
+        .animate-marquee-reverse { animation: marquee-reverse 60s linear infinite; }
       `}</style>
 
       <ToastContainer toasts={toasts} darkMode={darkMode} />
@@ -502,7 +499,7 @@ export default function NexozApp() {
           <div className="inline-block px-4 py-2 mb-6 rounded-full text-xs font-bold tracking-widest uppercase border border-blue-500/30 text-blue-500 bg-blue-500/10 backdrop-blur-sm">
             Next Gen Automation
           </div>
-          <h1 className={`text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-tight mb-8 max-w-6xl mx-auto drop-shadow-2xl bg-clip-text text-transparent bg-gradient-to-b ${darkMode ? 'from-white to-white/60' : 'from-slate-900 to-slate-600'}`}>
+          <h1 className={`text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-tight mb-8 max-w-6xl mx-auto drop-shadow-2xl bg-clip-text text-transparent bg-gradient-to-b ${darkMode ? 'from-white to-white/60' : 'from-slate-900 to-slate-600'}`}>
              {/* Fix: Applied dynamic base and hover colors */}
              {nexozData.brand.tagline.split(" ").map((word, i) => (
                <span 
@@ -515,7 +512,7 @@ export default function NexozApp() {
                </span>
              ))}
           </h1>
-          <p className={`text-xl md:text-2xl max-w-2xl mx-auto mb-12 leading-relaxed ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+          <p className={`text-lg md:text-2xl max-w-2xl mx-auto mb-12 leading-relaxed ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
             {nexozData.brand.description}
           </p>
           
@@ -541,11 +538,11 @@ export default function NexozApp() {
         <div className="max-w-7xl mx-auto px-6">
           <FadeInSection>
             <div className="flex flex-col md:flex-row justify-between items-end mb-16">
-              <div className="max-w-lg">
+              <div className="max-w-lg mx-auto md:mx-0 text-center md:text-left">
                 <h2 className="text-4xl md:text-6xl font-black tracking-tight">Integrations.</h2>
                 <p className={`mt-4 text-lg font-bold text-blue-500`}>1,000+ Native Integrations</p>
               </div>
-              <div className={`relative mt-6 md:mt-0 w-full md:w-96`}>
+              <div className={`relative mt-6 md:mt-0 w-full md:w-96 mx-auto md:mx-0`}>
                 <Search className={`absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400`} size={20} />
                 <input 
                   type="text" 
@@ -560,15 +557,16 @@ export default function NexozApp() {
         </div>
 
         {searchTerm ? (
-          <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 min-h-[300px] content-start">
+          <div className="max-w-7xl mx-auto px-6 grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3 content-start justify-items-center">
             {nexozData.compatibility.filter(app => app.name.toLowerCase().includes(searchTerm.toLowerCase())).map((app, idx) => (
               <FadeInSection key={app.name} delay={idx * 50}>
-                <div className={`group relative p-4 rounded-xl flex flex-col items-center justify-center gap-2 transition-all cursor-pointer border hover:-translate-y-1 backdrop-blur-md ${darkMode ? 'bg-black/40 border-white/10 hover:border-blue-500/50' : 'bg-white/60 border-black/5 hover:border-blue-500/50'}`}>
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center transition-transform">
-                    <IconMap name={app.icon} size={28} className="drop-shadow-md" />
+                {/* Optimized mobile grid for search results */}
+                <div className={`group relative p-2 w-full max-w-32 rounded-xl flex flex-col items-center justify-center gap-1 transition-all cursor-pointer border hover:-translate-y-1 backdrop-blur-md ${darkMode ? 'bg-black/40 border-white/10 hover:border-blue-500/50' : 'bg-white/60 border-black/5 hover:border-blue-500/50'}`}>
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center transition-transform">
+                    <IconMap name={app.icon} size={20} className="drop-shadow-md" />
                   </div>
-                  <span className="font-bold text-sm text-center">{app.name}</span>
-                  <span className={`text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+                  <span className="font-bold text-[10px] sm:text-xs text-center">{app.name}</span>
+                  <span className={`text-[8px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
                 </div>
               </FadeInSection>
             ))}
@@ -581,50 +579,22 @@ export default function NexozApp() {
             <div className={`absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l ${darkMode ? 'from-slate-950' : 'from-slate-50'} to-transparent pointer-events-none`}></div>
             
             {/* Row 1: Moving LEFT */}
-            <div className="flex overflow-hidden select-none my-2 w-full">
-              <div 
-                className={`flex w-max gap-4 items-center px-4 animate-marquee`}
-                style={{ animationDuration: '60s', willChange: 'transform' }}
-              >
-                 {[...nexozData.compatibility.slice(0, 12), ...nexozData.compatibility.slice(0, 12)].map((app, idx) => (
-                   <div key={`r1-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
-                     <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
-                       <IconMap name={app.icon} size={20} className="drop-shadow-md" />
-                     </div>
-                     <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
-                   </div>
-                 ))}
-              </div>
-            </div>
+            <MarqueeRow items={compatibilitySet1} reverse={false} rowNumber={1} />
 
             {/* Row 2: Moving RIGHT */}
-            <div className="flex overflow-hidden select-none my-2 w-full">
-              <div 
-                className={`flex w-max gap-4 items-center px-4 animate-marquee-reverse`}
-                style={{ animationDuration: '60s', willChange: 'transform' }}
-              >
-                 {[...nexozData.compatibility.slice(12), ...nexozData.compatibility.slice(12)].map((app, idx) => (
-                   <div key={`r2-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
-                     <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1"><IconMap name={app.icon} size={20} className="drop-shadow-md" /></div>
-                     <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
-                   </div>
-                 ))}
-              </div>
-            </div>
+            <MarqueeRow items={compatibilitySet2} reverse={true} rowNumber={2} />
           </div>
         )}
       </section>
 
       {/* --- AUTOMATIONS --- */}
       <section id="automations" className="py-24 px-6 relative">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto text-center md:text-left">
           <FadeInSection>
             <h2 className="text-4xl md:text-6xl font-black tracking-tight">Pre-built Flows.</h2>
           </FadeInSection>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             {nexozData.automations.map((item, idx) => {
               const isActive = activeAutomations.has(item.id);
               return (
