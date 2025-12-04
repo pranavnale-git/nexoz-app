@@ -150,7 +150,7 @@ const nexozData = {
     { name: "WooCommerce", type: "E-commerce", icon: "WooCommerce", color: "#96588A" },
     { name: "MongoDB", type: "Database", icon: "MongoDB", color: "#47A248" },
     { name: "Discord", type: "Communication", icon: "Discord", color: "#5865F2" },
-    { name: "Airtable", type: "Database", color: "#FCB400", icon: "Airtable" },
+    { name: "Airtable", type: "Database", icon: "Airtable", color: "#FCB400" },
     { name: "Stripe", type: "Finance", icon: "Stripe", color: "#635BFF" },
     { name: "Twilio", type: "Communication", icon: "Twilio", color: "#F22F46" },
     { name: "Zoom", type: "Video", icon: "Zoom", color: "#2D8CFF" },
@@ -394,44 +394,34 @@ export default function NexozApp() {
   };
 
   // Marquee Row Helper
-  const MarqueeRow = ({ items, reverse, rowNumber }) => {
-    // Determine card dimensions based on screen size (Mobile first)
-    const cardBaseClasses = "p-2 w-24 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
-    const cardDesktopClasses = "sm:w-32 sm:h-24 md:w-40 md:h-32 lg:w-48 lg:h-40";
-
-    const isRow1or3 = rowNumber === 1 || rowNumber === 3; // Moving Left (normal)
-    
-    return (
-      <div className="flex overflow-hidden group/marquee select-none my-4 w-full">
-        <div 
-          className={`flex w-max gap-8 items-center px-4 ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}
-          style={{ 
-            animationDuration: '80s',
-            willChange: 'transform'
-          }}
-        >
-           {/* Duplicate items to create seamless loop */}
-           {[...items, ...items].map((app, idx) => (
-             <div 
-               key={`${app.name}-${idx}-${rowNumber}`}
-               className={`group relative ${cardBaseClasses} ${cardDesktopClasses} ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}
-             >
-               <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
-                 <IconMap name={app.icon} size={24} className="drop-shadow-md" />
-               </div>
-               <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-               <span className={`text-[8px] sm:text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+  const MarqueeRow = ({ items, reverse }) => (
+    <div className="flex overflow-hidden group/marquee select-none my-4 w-full">
+      <div 
+        className={`flex w-max gap-8 items-center px-4 ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}
+        style={{ 
+          animationDuration: '80s',
+          willChange: 'transform' // Optimized for smoothness
+        }}
+      >
+         {/* Duplicate items to create seamless loop */}
+         {[...items, ...items].map((app, idx) => (
+           <div 
+             key={`${app.name}-${idx}`}
+             className={`group relative p-4 w-40 h-32 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all duration-300 cursor-pointer border hover:-translate-y-1 ${darkMode ? 'bg-black border-transparent hover:border-gray-800' : 'bg-white border-transparent hover:border-gray-200'}`}
+             style={{
+               '--hover-color': app.color || '#3B82F6'
+             }}
+           >
+             <div className="w-10 h-10 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+               <IconMap name={app.icon} size={32} className="drop-shadow-lg" />
              </div>
-           ))}
-        </div>
+             <span className="font-bold text-xs text-center">{app.name}</span>
+             <span className={`text-[10px] uppercase tracking-wide ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+           </div>
+         ))}
       </div>
-    );
-  };
-
-  const compatibilitySet1 = nexozData.compatibility.slice(0, 6);
-  const compatibilitySet2 = nexozData.compatibility.slice(6, 12);
-  const compatibilitySet3 = nexozData.compatibility.slice(12, 18);
-  const compatibilitySet4 = nexozData.compatibility.slice(18);
+    </div>
+  );
 
   return (
     <div className={`relative min-h-screen font-sans transition-colors duration-500 selection:bg-blue-500 selection:text-white overflow-x-hidden ${darkMode ? 'text-white' : 'text-slate-900'}`}>
@@ -503,7 +493,7 @@ export default function NexozApp() {
             Next Gen Automation
           </div>
           <h1 className={`text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-tight mb-8 max-w-6xl mx-auto drop-shadow-2xl bg-clip-text text-transparent bg-gradient-to-b ${darkMode ? 'from-white to-white/60' : 'from-slate-900 to-slate-600'}`}>
-             {/* Word-by-word hover effect restored and fixed for light mode */}
+             {/* Fix: Applied dynamic base and hover colors */}
              {nexozData.brand.tagline.split(" ").map((word, i) => (
                <span 
                  key={i} 
@@ -580,35 +570,33 @@ export default function NexozApp() {
             <div className={`absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r ${darkMode ? 'from-slate-950' : 'from-slate-50'} to-transparent pointer-events-none`}></div>
             <div className={`absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l ${darkMode ? 'from-slate-950' : 'from-slate-50'} to-transparent pointer-events-none`}></div>
             
-            {/* Row 1: Moving LEFT */}
-            <div className="flex overflow-hidden select-none my-2 w-full">
+            {/* Row 1: Left */}
+            <div className="flex overflow-hidden select-none my-4 w-full">
               <div 
-                className={`flex w-max gap-4 items-center px-4 animate-marquee`}
+                className={`flex w-max gap-8 items-center px-4 animate-marquee`}
                 style={{ animationDuration: '60s', willChange: 'transform' }}
               >
                  {[...nexozData.compatibility.slice(0, 12), ...nexozData.compatibility.slice(0, 12)].map((app, idx) => (
-                   <div key={`r1-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
-                     <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
-                       <IconMap name={app.icon} size={20} className="drop-shadow-md" />
-                     </div>
-                     <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+                   <div key={`r1-${idx}`} className={`p-4 w-48 h-32 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
+                     <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1.5"><IconMap name={app.icon} size={24} className="drop-shadow-md" /></div>
+                     <span className="font-bold text-sm text-center tracking-tight">{app.name}</span>
+                     <span className={`text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
                    </div>
                  ))}
               </div>
             </div>
 
-            {/* Row 2: Moving RIGHT */}
-            <div className="flex overflow-hidden select-none my-2 w-full">
+            {/* Row 2: Right */}
+            <div className="flex overflow-hidden select-none my-4 w-full">
               <div 
-                className={`flex w-max gap-4 items-center px-4 animate-marquee-reverse`}
+                className={`flex w-max gap-8 items-center px-4 animate-marquee-reverse`}
                 style={{ animationDuration: '60s', willChange: 'transform' }}
               >
                  {[...nexozData.compatibility.slice(12), ...nexozData.compatibility.slice(12)].map((app, idx) => (
-                   <div key={`r2-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
-                     <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1"><IconMap name={app.icon} size={20} className="drop-shadow-md" /></div>
-                     <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+                   <div key={`r2-${idx}`} className={`p-4 w-48 h-32 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
+                     <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1.5"><IconMap name={app.icon} size={24} className="drop-shadow-md" /></div>
+                     <span className="font-bold text-sm text-center">{app.name}</span>
+                     <span className={`text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
                    </div>
                  ))}
               </div>
