@@ -46,7 +46,7 @@ const BrandIcons = {
   "Trello": { viewBox: "0 0 24 24", paths: [{ d: "M19.06 2H4.94C3.32 2 2 3.32 2 4.94v14.12C2 20.68 3.32 22 4.94 22h14.12C20.68 22 22 20.68 22 19.06V4.94C22 3.32 20.68 2 19.06 2zM10.6 16.2H5.9V5.8h4.7v10.4zm7.5-4.4h-4.7V5.8h4.7v6z", fill: "#0079BF" }] },
   "WooCommerce": { viewBox: "0 0 24 24", paths: [{ d: "M21.5 13.5c0 1.25-1.12 2.37-3.37 3.37c-.37 1.37-1.62 2.37-3 2.37c-.62 0-1.12-.12-1.62-.37c-.62.87-1.62 1.37-2.62 1.37c-1.37 0-2.5-1-2.87-2.25c-1.87-.87-3-2.12-3-3.25c0-1.87 2.37-3.37 5.25-3.37s5.25 1.5 5.25 3.37c0 .12 0 .25-.12.37c.5.5 1 .62 1.37.62c.62 0 1.12-.5 1.12-1.12c0-.5-.37-1-1.12-1.5c-2.37-1.62-2.12-5.37.5-5.37c1.75 0 3.25 1.75 4.12 3.75c.12.62.12 1.25.12 2z", fill: "#96588A" }] },
   "MongoDB": { viewBox: "0 0 24 24", paths: [{ d: "M12 22C11.5 22 11 21.5 11 21C11 17.5 7 13 7 9C7 5 9.5 2 12 2C14.5 2 17 5 17 9C17 13 13 17.5 13 21C13 21.5 12.5 22 12 22Z", fill: "#47A248" }] },
-  "Discord": { viewBox: "0 0 24 24", paths: [{ d: "M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.772-.6083 1.1588a18.2915 18.2915 0 0 0-5.4868 0 12.64 12.64 0 0 0-.6173-1.1632.077.077 0 0 0-.079-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.419-2.1568 2.419z", fill: "#5865F2" }] },
+  "Discord": { viewBox: "0 0 24 24", paths: [{ d: "M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.772-.6083 1.1588a18.2915 18.2915 0 0 0-5.4868 0 12.64 12.64 0 0 0-.6173-1.1632.077.077 0 0 0-.079-.037 19.7363 19.7363 0 0 0-4.8852 1.515.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276 12.2986 12.2986 0 0 1-1.873.8914.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.419-2.1568 2.419zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.419-2.1568 2.419z", fill: "#5865F2" }] },
   "Airtable": { viewBox: "0 0 24 24", paths: [{ d: "M12 0l-9.33 6.06L2.67 17.94 12 24l9.33-6.06L21.33 6.06zM12 18.6L6 14.7v-5.4l6 3.9v5.4zm0-6.9L6 7.8l6-3.9 6 3.9-6 3.9zm0 6.9v-5.4l6-3.9v5.4l-6 3.9z", fill: "#FCB400" }] },
   "Stripe": { viewBox: "0 0 24 24", paths: [{ d: "M14 11.5c0-1.5-1-2.5-3.5-2.5S6 10 6 10l-.5-3s1.5-1 4.5-1C14 6 16 8 16 11.5c0 4.5-9 4.5-9 6.5c0 .5.5 1 2.5 1c2.5 0 4-1 4-1l.5 3s-1.5 1-4.5 1c-4.5 0-6.5-2.5-6.5-5.5c0-5 9-5 9-7z", fill: "#635BFF" }] },
   "Twilio": { viewBox: "0 0 24 24", paths: [{ d: "M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm-3.5-7c-1.93 0-3.5-1.57-3.5-3.5S6.57 5 8.5 5 12 6.57 12 8.5 10.43 12 8.5 12zm7 0c-1.93 0-3.5-1.57-3.5-3.5S13.57 5 15.5 5 19 6.57 19 8.5 17.43 12 15.5 12z", fill: "#F22F46" }] },
@@ -144,13 +144,13 @@ const nexozData = {
     { name: "HubSpot", type: "CRM", icon: "HubSpot", color: "#FF7A59" },
     { name: "PostgreSQL", type: "Database", icon: "PostgreSQL", color: "#336791" },
     { name: "AWS S3", type: "Storage", icon: "AWS S3", color: "#FF9900" },
-    { name: "Google Drive", type: "Storage", icon: "Google Drive", color: "#1FA463" },
+    { name: "Google Drive", type: "Storage", color: "#1FA463", icon: "Google Drive" },
     { name: "Typeform", type: "Forms", icon: "Typeform", color: "#262627" },
     { name: "Trello", type: "Project Mgmt", icon: "Trello", color: "#0079BF" },
     { name: "WooCommerce", type: "E-commerce", icon: "WooCommerce", color: "#96588A" },
     { name: "MongoDB", type: "Database", icon: "MongoDB", color: "#47A248" },
     { name: "Discord", type: "Communication", icon: "Discord", color: "#5865F2" },
-    { name: "Airtable", type: "Database", icon: "Airtable", color: "#FCB400" },
+    { name: "Airtable", type: "Database", color: "#FCB400", icon: "Airtable" },
     { name: "Stripe", type: "Finance", icon: "Stripe", color: "#635BFF" },
     { name: "Twilio", type: "Communication", icon: "Twilio", color: "#F22F46" },
     { name: "Zoom", type: "Video", icon: "Zoom", color: "#2D8CFF" },
@@ -308,9 +308,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className={`md:hidden p-3 rounded-full transition-all duration-300 hover:scale-110 ${darkMode ? 'bg-white/10 hover:bg-white/20' : 'bg-black/5 hover:bg-black/10'}`}>{isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}</button>
         </div>
       </div>
-      {/* MOBILE MENU FIX: Ensure text is visible regardless of theme */}
       <div className={`md:hidden absolute w-full transition-all duration-300 ease-in-out overflow-hidden ${isMobileMenuOpen ? 'max-h-screen opacity-100 border-b border-white/10 bg-black/90' : 'max-h-0 opacity-0'}`}>
-        <div className={`flex flex-col p-6 gap-6 text-center font-bold text-lg ${darkMode ? 'text-white' : 'text-slate-900'}`}>
+        <div className="flex flex-col p-6 gap-6 text-center font-bold text-lg">
           {nexozData.nav.map((item) => (
             <button key={item} onClick={() => handleScrollTo(item.toLowerCase())} className="hover:text-blue-500 transition-colors">{item}</button>
           ))}
@@ -396,24 +395,26 @@ export default function NexozApp() {
 
   // Marquee Row Helper
   const MarqueeRow = ({ items, reverse, rowNumber }) => {
-    // Define size classes for mobile and desktop, ensuring the container width is not static (w-max is used inside)
-    const cardBaseClasses = "p-2 w-28 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
+    // Determine card dimensions based on screen size (Mobile first)
+    const cardBaseClasses = "p-2 w-24 h-20 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border";
     const cardDesktopClasses = "sm:w-32 sm:h-24 md:w-40 md:h-32 lg:w-48 lg:h-40";
 
+    const isRow1or3 = rowNumber === 1 || rowNumber === 3; // Moving Left (normal)
+    
     return (
       <div className="flex overflow-hidden group/marquee select-none my-4 w-full">
         <div 
           className={`flex w-max gap-8 items-center px-4 ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}
           style={{ 
-            animationDuration: '60s',
-            willChange: 'transform' // Optimized for smoothness
+            animationDuration: '80s',
+            willChange: 'transform'
           }}
         >
            {/* Duplicate items to create seamless loop */}
            {[...items, ...items].map((app, idx) => (
              <div 
                key={`${app.name}-${idx}-${rowNumber}`}
-               className={`group relative ${cardMobileClasses} ${cardDesktopClasses} ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}
+               className={`group relative ${cardBaseClasses} ${cardDesktopClasses} ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}
              >
                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
                  <IconMap name={app.icon} size={24} className="drop-shadow-md" />
@@ -427,8 +428,10 @@ export default function NexozApp() {
     );
   };
 
-  const compatibilitySet1 = nexozData.compatibility.slice(0, 12);
-  const compatibilitySet2 = nexozData.compatibility.slice(12);
+  const compatibilitySet1 = nexozData.compatibility.slice(0, 6);
+  const compatibilitySet2 = nexozData.compatibility.slice(6, 12);
+  const compatibilitySet3 = nexozData.compatibility.slice(12, 18);
+  const compatibilitySet4 = nexozData.compatibility.slice(18);
 
   return (
     <div className={`relative min-h-screen font-sans transition-colors duration-500 selection:bg-blue-500 selection:text-white overflow-x-hidden ${darkMode ? 'text-white' : 'text-slate-900'}`}>
@@ -453,8 +456,8 @@ export default function NexozApp() {
       <style>{`
         @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
         @keyframes marquee-reverse { 0% { transform: translateX(-50%); } 100% { transform: translateX(0); } }
-        .animate-marquee { animation: marquee 60s linear infinite; }
-        .animate-marquee-reverse { animation: marquee-reverse 60s linear infinite; }
+        .animate-marquee { animation: marquee 80s linear infinite; }
+        .animate-marquee-reverse { animation: marquee-reverse 80s linear infinite; }
       `}</style>
 
       <ToastContainer toasts={toasts} darkMode={darkMode} />
@@ -500,7 +503,7 @@ export default function NexozApp() {
             Next Gen Automation
           </div>
           <h1 className={`text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-tight mb-8 max-w-6xl mx-auto drop-shadow-2xl bg-clip-text text-transparent bg-gradient-to-b ${darkMode ? 'from-white to-white/60' : 'from-slate-900 to-slate-600'}`}>
-             {/* Fix: Applied dynamic base and hover colors */}
+             {/* Word-by-word hover effect restored and fixed for light mode */}
              {nexozData.brand.tagline.split(" ").map((word, i) => (
                <span 
                  key={i} 
@@ -538,7 +541,7 @@ export default function NexozApp() {
         <div className="max-w-7xl mx-auto px-6">
           <FadeInSection>
             <div className="flex flex-col md:flex-row justify-between items-end mb-16">
-              <div className="max-w-lg mx-auto md:mx-0 text-center md:text-left">
+              <div className="max-w-lg">
                 <h2 className="text-4xl md:text-6xl font-black tracking-tight">Integrations.</h2>
                 <p className={`mt-4 text-lg font-bold text-blue-500`}>1,000+ Native Integrations</p>
               </div>
@@ -560,13 +563,12 @@ export default function NexozApp() {
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 min-h-[300px] content-start">
             {nexozData.compatibility.filter(app => app.name.toLowerCase().includes(searchTerm.toLowerCase())).map((app, idx) => (
               <FadeInSection key={app.name} delay={idx * 50}>
-                {/* Optimized mobile grid for search results */}
-                <div className={`group relative p-2 rounded-xl flex flex-col items-center justify-center gap-1 transition-all cursor-pointer border hover:-translate-y-1 backdrop-blur-md ${darkMode ? 'bg-black/40 border-white/10 hover:border-blue-500/50' : 'bg-white/60 border-black/5 hover:border-blue-500/50'}`}>
-                  <div className="w-8 h-8 rounded-lg flex items-center justify-center transition-transform">
-                    <IconMap name={app.icon} size={20} className="drop-shadow-md" />
+                <div className={`group relative p-4 rounded-xl flex flex-col items-center justify-center gap-2 transition-all cursor-pointer border hover:-translate-y-1 backdrop-blur-md ${darkMode ? 'bg-black/40 border-white/10 hover:border-blue-500/50' : 'bg-white/60 border-black/5 hover:border-blue-500/50'}`}>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center transition-transform">
+                    <IconMap name={app.icon} size={28} className="drop-shadow-md" />
                   </div>
-                  <span className="font-bold text-[10px] text-center">{app.name}</span>
-                  <span className={`text-[8px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+                  <span className="font-bold text-sm text-center">{app.name}</span>
+                  <span className={`text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
                 </div>
               </FadeInSection>
             ))}
@@ -584,13 +586,13 @@ export default function NexozApp() {
                 className={`flex w-max gap-4 items-center px-4 animate-marquee`}
                 style={{ animationDuration: '60s', willChange: 'transform' }}
               >
-                 {[...compatibilitySet1, ...compatibilitySet1].map((app, idx) => (
+                 {[...nexozData.compatibility.slice(0, 12), ...nexozData.compatibility.slice(0, 12)].map((app, idx) => (
                    <div key={`r1-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
                      <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1">
                        <IconMap name={app.icon} size={20} className="drop-shadow-md" />
                      </div>
                      <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
                    </div>
                  ))}
               </div>
@@ -602,11 +604,11 @@ export default function NexozApp() {
                 className={`flex w-max gap-4 items-center px-4 animate-marquee-reverse`}
                 style={{ animationDuration: '60s', willChange: 'transform' }}
               >
-                 {[...compatibilitySet2, ...compatibilitySet2].map((app, idx) => (
+                 {[...nexozData.compatibility.slice(12), ...nexozData.compatibility.slice(12)].map((app, idx) => (
                    <div key={`r2-${idx}`} className={`p-2 w-28 h-20 sm:w-32 sm:h-24 rounded-xl flex flex-col items-center justify-center gap-1 transition-all duration-300 border ${darkMode ? 'bg-black/40 border-white/10' : 'bg-white/60 border-black/5'}`}>
                      <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center bg-white/5 backdrop-blur-sm p-1"><IconMap name={app.icon} size={20} className="drop-shadow-md" /></div>
                      <span className="font-bold text-[10px] sm:text-xs text-center tracking-tight">{app.name}</span>
-                     <span className={`text-[8px] sm:text-[10px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
+                     <span className={`text-[8px] sm:text-[9px] uppercase tracking-widest font-medium ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{app.type}</span>
                    </div>
                  ))}
               </div>
